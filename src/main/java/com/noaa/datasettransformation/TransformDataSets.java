@@ -27,7 +27,7 @@ public class TransformDataSets {
         ArrayList<NOAADataList> noaaList = new ArrayList<>();
         PrintWriter pw = null;
         try {
-            pw = new PrintWriter(new File("C:\\Personal\\JobSearch\\GeneralDynamics\\NOAADataList.csv"));
+            pw = new PrintWriter(new File("C:\\Projects\\DataSetTransformation\\NOAADataList.csv"));
         } catch (FileNotFoundException e) {
         }
         StringBuilder sb = new StringBuilder();  
